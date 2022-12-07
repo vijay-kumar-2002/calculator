@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:black;
+
+        }
+        .container{
+            height: auto;
+            width: 700px;
+            background-color: blue;
+            font-size: 40;
+            display: grid;
+            color: white;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 20px;
+            padding: 10px;
+            margin: auto;
+            text-align: center;
+        }
+        .item{
+            background-color:white;
+            height: 100px;
+            color: black;
+            font-size: 40px;
+            
+        }
+        .item1
+        {
+            text-align: center;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            background-color: transparent;
+        }
+        button{
+            border: none;
+            cursor: pointer;
+            
+        }
+        input[type="text"]
+        {
+            padding: 10px 20px;
+            width: 90%;
+            height: 60px;
+            border-radius: 20px;
+            border: none;
+        }
+        .main
+        {
+            text-align: center;
+        }
+        .heading{
+            background-image:linear-gradient(blue red);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            font-size: 90px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="main"><h1 class="heading">calculator</h1></div>
+    <div class="container">
+        <div class="item item1"><input type="text"name=""id=""></div>
+        <buttom class="item"> 1 </buttom>
+        <buttom class="item"> 2 </buttom>
+        <buttom class="item"> 3 </buttom>
+        <buttom class="item"> 4 </buttom>
+        <buttom class="item"> 5 </buttom>
+        <buttom class="item"> 6 </buttom>
+        <buttom class="item"> 7 </buttom>
+        <buttom class="item"> 8 </buttom>
+        <buttom class="item"> 9 </buttom>
+        <buttom class="item"> + </buttom>
+        <buttom class="item"> - </buttom>
+        <buttom class="item"> x </buttom>
+        <buttom class="item"> % </buttom>
+        <buttom class="item"> $ </buttom>
+        <buttom class="item"> = </buttom>
+</div>
+</body>
+</html>
